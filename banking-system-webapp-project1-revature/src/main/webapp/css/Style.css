@@ -1,0 +1,137 @@
+@charset "ISO-8859-1";
+
+
+
+		 body {
+          
+
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Baloo Thambi 2',"Times New Roman", Georgia, Serif;;
+        }
+        h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 40px;
+            top: 20px;
+
+
+        }
+
+        .mid {
+            display: block;
+            width: 500px;
+            margin: 20px auto;
+            /* position: absolute; */
+            left: 15px;
+            bottom: 40px;
+            /* border: 2px solid rgb(81, 255, 0); */
+        }
+
+        .right {
+            display: inline-block;
+            /* border: 2px solid rgb(185, 162, 162); */
+            position: absolute;
+            right: 2px;
+            top: 20px;
+            margin-right: 65px;
+        }
+
+        .navbar a {
+
+         color:black;
+            text-decoration: none;
+            list-style-type: none;
+            padding: 15px;
+        }
+
+        .navbar li {
+            font-size: 20px;
+            list-style: none;
+            display: inline-block;
+        }
+
+        .navbar a:hover {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        .left img {
+            width: 70px;
+            height: 60px;
+            /* filter: invert(100%); */
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .btn {
+            margin: 11px 4px;
+            ;
+            padding: 1px 11px;
+            /* background-color: black; */
+            /* color: white; */
+            border: 2px solid black;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Baloo Thambi 2';
+        }
+
+        .btn:hover {
+            background-color: black;
+            color: white;
+        }
+         .drop-down{
+            position: relative;
+ 			 display: inline-block;
+         }   
+         .dropbtn    {
+             display: none;
+			  position: fixed;
+			  background-color: #f1f1f1;
+			  min-width: 160px;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			  z-index: 1;
+			      letter-spacing: 3px;
+			      margin: 0px 0px 12px -24px;
+         } 
+        .dropbtn a{
+            color: black;
+			  padding: 12px 16px;
+			  text-decoration: none;
+			  display: block;
+        }
+        .dropbtn a :hover {
+	background-color: #ddd;
+     }
+     
+      .w3-right :hover .dropbtn{
+      
+	display: block;
+}
+        
+        
+     .centered{
+        position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  font-weight: 260px;
+     }   
+        
+        
+        
+        
+        
+        
+        
+     
+    
