@@ -12,7 +12,7 @@ To create this application, for frontend part I  used HTML, CSS, JavaScript and 
 <h3>Features
 </h3><hr>
 <ul>
-  <li>Bank to Bnk transfer</li>
+  <li>Bank to Bank transfer</li>
   <li>See the account transaction and history</li>
   <li>Transfer money between your accounts</li>
   <li>View images of proceed check</li>
